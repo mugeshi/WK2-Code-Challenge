@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+.animal {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.animal:hover {
+  background-color: lightgray;
+}
+
+.animal img {
+  width: 100px;
+}
+
+#animalDetails {
+  display: none;
+}
+
+#animal-list {
+    margin-bottom: 20px;
+}
+
+#animal-details {
+    margin-bottom: 20px;
+}
+
+#reset-button {
+    display: block;
+    margin: 0 auto;
+}
+
+#add-animal-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#add-animal-form input[type="text"] {
+    margin-right: 10px;
+}
+
+#add-animal-form button[type="submit"] {
+    padding: 5px 10px;
+}
